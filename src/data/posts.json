@@ -1,0 +1,134 @@
+{
+  "capturedAt": "2026-10-20T19:06:29.683Z",
+  "source": "https://api.fxtwitter.com/status/{id}",
+  "posts": [
+    {
+      "id": "2105853348188459389",
+      "url": "https://x.com/surfcoderepeat/status/2105853348188459389",
+      "author": {
+        "name": "Adam",
+        "handle": "surfcoderepeat",
+        "avatar": "avatars/surfcoderepeat.jpg"
+      },
+      "createdAt": "2026-10-02T02:52:17.000Z",
+      "text": "IMD is a protocol to create net new 0 to 1  financial applications, a distributed software factory and oracle managed by agents providing inference 24/7 while running the IMD daemon\n\nThe final goal is to create companies 100% managed by a network of distributed agents\n\nhttps://x.com/pegzeus/status/2105396759342059873/video/1\n\nhere are some of the thing the community is working on👇",
+      "hasMedia": true,
+      "likes": 369,
+      "reposts": 103,
+      "replies": 26,
+      "views": 79044
+    },
+    {
+      "id": "2102050129440133156",
+      "url": "https://x.com/surfcoderepeat/status/2102050129440133156",
+      "author": {
+        "name": "Adam",
+        "handle": "surfcoderepeat",
+        "avatar": "avatars/surfcoderepeat.jpg"
+      },
+      "createdAt": "2026-09-21T14:59:39.000Z",
+      "text": "Right now during beta we have 71 daemons connected to the network providing compute to finish 62 tasks\n\nEach worker can run how many agents? (limited by codex/claude and their PC) \n\nAlso you can use the oracle for meme apps that weren't possible until today\n\nIf you want to build something cool in the intersection of agentfi pm me",
+      "hasMedia": true,
+      "likes": 242,
+      "reposts": 37,
+      "replies": 23,
+      "views": 62286
+    },
+    {
+      "id": "2105396759342059873",
+      "url": "https://x.com/pegzeus/status/2105396759342059873",
+      "author": {
+        "name": "pegzeus",
+        "handle": "pegzeus",
+        "avatar": "avatars/pegzeus.jpg"
+      },
+      "createdAt": "2026-09-30T20:37:58.000Z",
+      "text": "crazy times imo, we're witnessing the first real attempt at \"a company without a company\"\n\ndaos were sold as the answer to this and to coase's: \"why do firms exist if markets work?\" question... -> because finding, negotiating and verifying work costs too much\n\nbut daos never removed any of these costs, arguably added new ones on top (coordination, voting)... tbf it was too early\n\nai + crypto finally let us go after these costs. ai can do the work, crypto can pay anyone, enforce the rules and align incentives. other agents can review the work before payment is released\n\n$imd is the first real attempt i've seen to package this: \n- the work is the market\n- workers are seats you can buy (or rent in future)\n- they compete for every job\n-  reputation is tied to each seat\n- you keep some of what made firms useful (reputation, standards) without the overhead\n\nfunny enough, it's almost the reverse of what daos did. daos crowdsourced the decisions and kept the work-related costs. here anyone can hire this liquid workforce: whoever pays decides what gets built\n\nideas move to the edges, and execution/output gets verified at the center\n\nobv we're still early. can think of the verifier as a small firm at the core\n\nbut the firm is shrinking and the market component is only growing",
+      "hasMedia": true,
+      "likes": 94,
+      "reposts": 17,
+      "replies": 4,
+      "views": 52519
+    },
+    {
+      "id": "2099914270888559088",
+      "url": "https://x.com/surfcoderepeat/status/2099914270888559088",
+      "author": {
+        "name": "Adam",
+        "handle": "surfcoderepeat",
+        "avatar": "avatars/surfcoderepeat.jpg"
+      },
+      "createdAt": "2026-09-15T17:32:31.000Z",
+      "text": "The most bullish would be if someone from the community creates some tool to decide and automate this so other projects give us more WL in the future too without me being involved",
+      "hasMedia": false,
+      "likes": 83,
+      "reposts": 2,
+      "replies": 15,
+      "views": 15720
+    },
+    {
+      "id": "2089613122390708261",
+      "url": "https://x.com/LastToSign/status/2089613122390708261",
+      "author": {
+        "name": "LastToSign",
+        "handle": "LastToSign",
+        "avatar": "avatars/LastToSign.jpg"
+      },
+      "createdAt": "2026-08-18T07:19:26.000Z",
+      "text": "Identity.md NFTs used to look like dev licenses. Now they appear to be turning into participation passes and digital identities for members of an autonomous company built around $IMD.\n\nSince my previous breakdown, Adam has significantly changed the direction of the project.\n\nInitially, it looked like a launcher with a Uniswap v4 hook. Now @surfcoderepeat says he is building a larger agentic P2P protocol, with hooks becoming only one of its first features.\n\nThe most interesting finding is inside the launch-6-hook-feedistributor repo.\n\nIts main branch was created by Adam’s account, although the repo formally belongs to the Identity-md organization. The task described in the repo is to collect a 5% fee from every trade, hold it in $ETH and periodically distribute it among major $IMD holders.\n\nThe official http://imd.fun site is now live. Right now, it is just a basic placeholder with no app.\n\nThe real clues were found on GitHub.\n\nAdam’s surfer77 account created code inside the Identity-md organization. One of the repos is explicitly described as a test of the IdentityMD participant network.\n\nBased on comments in the code, the network appears to work like this: an automated participant receives a small task and access only to the required files, writes the code, and a separate system checks the result again inside an isolated environment with no internet access\n\nThis begins to explain the site’s description of a “decentralized meme company with no employees.”\n\nIt could be a company where AI agents perform most of the work, while the network verifies their output and gradually transfers control to the community.\n\nAdam also prepared a token launch template using Uniswap v4. The test model creates exactly 1B tokens with no ability to mint more.\n\nThe entire supply is immediately placed into one-sided liq against $ETH.\n\nNo $ETH is required to open the pool. Buyers gradually bring it in, the price rises as they buy, and $ETH accumulates inside the pool.\n\nA direct link between $IMD and the NFTs has also appeared. Identity.md NFTs are now officially described as “Participation Pass & Identity.”\n\nThe most logical setup is:\n\n> NFT = access and identity\n> $IMD = the project’s money and economy\n\nThe identity.md NFT contract is limited to only 2,000 NFTs, and the free mint was restricted to one NFT per wallet.\n\nThe site describes it as a Participation Pass & Identity. The verified code allows each NFT to be linked to an IPFS profile and permanently locked if desired.\n\nThe NFT could potentially serve as:\n\n> a pass into the Identity.md network\n> a persistent profile for a participant or AI agent\n> proof of participation in the early community\n> a key to tasks, voting, reputation and rewards\n> a way to distinguish real participants from regular $IMD buyers\n\nThe NFT contract also includes fields for an epoch, Uniswap v4 hook and pool.\nThis shows that Adam was already thinking about connecting the NFTs to a future trading or reward system.",
+      "hasMedia": true,
+      "likes": 112,
+      "reposts": 21,
+      "replies": 14,
+      "views": 42887
+    },
+    {
+      "id": "2093052175538659353",
+      "url": "https://x.com/LastToSign/status/2093052175538659353",
+      "author": {
+        "name": "LastToSign",
+        "handle": "LastToSign",
+        "avatar": "avatars/LastToSign.jpg"
+      },
+      "createdAt": "2026-08-27T19:05:00.000Z",
+      "text": "The first utility for the Identity.md NFT now looks confirmed. Next, we wait to see what utility $IMD gets.\n\nOne NFT lets you run one daemon whose output can be accepted as valid by the system.\n\nThe daemon:\n\n> uses Codex or Claude  \n> receives assigned tasks  \n> submits its output for verification  \n> can potentially build a track record of completed work\n\nEssentially, the NFT serves two purposes:\n\n> access to the closed network  \n> a unique identity for a specific daemon and its operator\n\nThe owner could potentially earn rewards even without writing code themselves.\n\nAdam has almost certainly already been running internal tests. His own NFTs may have allowed him to spin up several daemons, connect Codex or Claude, and run the entire cycle on his own infrastructure.\n\nThe evidence:\n\n> a ready-made fixture for end-to-end testing  \n> an already deployed Sepolia executor and registry  \n> a carefully designed isolated verifier  \n> protection against executing the same task twice  \n> prepared tasks such as <launch-30>\n\nSo the private invites do not look like testing from scratch.\n\nInstead, IdentityMD appears to be moving from controlled internal tests to testing independent operators: their VPSs, accounts, environments, mistakes, and attempts to modify protected files.",
+      "hasMedia": true,
+      "likes": 48,
+      "reposts": 10,
+      "replies": 3,
+      "views": 18590
+    },
+    {
+      "id": "2086860795741184283",
+      "url": "https://x.com/LastToSign/status/2086860795741184283",
+      "author": {
+        "name": "LastToSign",
+        "handle": "LastToSign",
+        "avatar": "avatars/LastToSign.jpg"
+      },
+      "createdAt": "2026-08-10T17:02:40.000Z",
+      "text": "Identity.md NFT turned out not to be a ticket to launch your own token\nConfirmed utility for $IMD\n\nAccording to a GitHub mirror discovered by @0xfinne, it is a developer credential that allows its holder to complete tasks assigned by the factory\n\nThe mirror is highly likely to be authentic. It references the original private repository Identity-md/launch-3-new, factory issue #20 and launch number 3\n\nThe first commits were made by identitymd-launch-factory[bot]. The history also contains commits and signed merge commits from Adam under his surfer77 GitHub account\n\nHow the factory works in simple terms\nImagine a factory that produces new markets:\n\n> someone proposes an idea for a token or market.\n> the Identity.md team accepts or rejects it.\n> the factory divides the development process into separate tasks:\n  >>design the architecture\n  >>write the smart contract\n  >>write the tests\n> an Identity.md NFT holder registers as a worker.\nthe scheduler assigns them a specific task\n> the worker uses Codex, Claude or writes the code manually\n> the factory checks the code, tests and security.\n> a maintainer accepts the result\n> a multisig authorizes the deployment\n> a new PROJECT/IMD market appears\n\nThis means the NFT is not required by Codex or by someone who simply proposes an idea. It is required by the developer-worker\n\nThe NFT tells the factory:\n\n> this GitHub developer is linked to this wallet\n> they own a valid Identity.md credential\n> they can be assigned a task\n> the factory can accept a signed result from them\n\nBefore accepting each PR, the system checks NFT ownership through ownerOf() on Ethereum mainnet. If the worker sells the NFT, they lose the right to complete the assigned work\n\nThis is implemented directly in the code: a developer owns an NFT, registers as a worker and receives the right to complete assigned hook-development tasks\n\nThey cannot independently choose any project, write an arbitrary hook and immediately launch it\n\nThis also explains the line from Adam’s logs: waiting for the next signed milestone\n\nIt now appears that a signed milestone is most likely not a command for an autonomous economic agent, but a specific task inside the factory\n\nFor example:\n\n> design the architecture\n> write the contract\n> prepare the tests\n\nThe worker receives the task, completes it and signs the result tied to an exact commit and Git tree\n\nThe code then passes through several layers of verification. This means the agent published by Adam is probably an autonomous developer-worker:\n\n> Codex writes the hook\n> the signed milestone limits it to a specific task\n> the factory verifies the result\n> a maintainer accepts the code\n> a multisig authorizes the launch\n\nAI is not the final product here, at least for now. It is one of the factory workers\n\nHow is this different from a regular launchpad?\n\nA regular launchpad works roughly like this:\n\n> enter a name and ticker\n> a standard token is created\n> a bonding curve or regular pool opens\n> trading begins\n\nAlmost every project launches from the same template\n\nThe name, supply and image change, but the market mechanics remain similar. Identity.md is trying to build a system where each project can receive its own mechanics programmed through a separate Uniswap v4 hook\n\nOne hook can: \n\n> burn part of the fees\n> change fees depending on specific conditions\n> restrict certain trades\n> direct assets according to predefined rules\n> create a new liquidity or distribution model\n\nThis makes Identity.md look less like a regular token launchpad and more like a combination of:\n\n> launchpad\n> smart contract studio\n> AI development pipeline\n> security review system\n\nThe main potential know-how is not found in the individual components\n\nNFT gating, AI coding, GitHub Actions, multisigs and Uniswap v4 hooks already exist. What may be new is combining them into a single factory that turns an idea into a finished and verified market\n\nAnd this is where the role of $IMD appears.\nThe factory schema specifies: \"quoteSymbol\": { \"const\": \"IMD\" } It uses const, not one of several possible options\n\nThis means the current architecture requires every market to be created as:\n\n> PROJECT/ $IMD\n\nIf the router hides the intermediate operations, the user may not even notice this. But inside the system, buying a new asset would still require $IMD\n\nFor the person proposing an idea, the potential offer looks like this:\n\n> they bring the idea\n> the factory creates the specification\n> AI and NFT workers write the hook\n> the system runs tests and security reviews\n> the multisig authorizes the deployment\n> a new programmable market appears\n\nThis means the person does not necessarily need to find a Solidity developer, auditor and DevOps team independently\n\nThe NFT currently gives its holder the right to work inside the factory, but the economic reason to buy that right has not yet been revealed\n\nIdentity.md is not building a single burn hook\n\nIt is an attempt to create a factory that turns an idea into a verified programmable market.\nThe NFT controls who can participate in production\n\n$IMD is intended to become the shared settlement asset across all markets\n\nWatching closely",
+      "hasMedia": true,
+      "likes": 68,
+      "reposts": 20,
+      "replies": 6,
+      "views": 39618
+    },
+    {
+      "id": "2094764730317484378",
+      "url": "https://x.com/LastToSign/status/2094764730317484378",
+      "author": {
+        "name": "LastToSign",
+        "handle": "LastToSign",
+        "avatar": "avatars/LastToSign.jpg"
+      },
+      "createdAt": "2026-09-01T12:30:05.000Z",
+      "text": "The new Pool4 page on http://imd.fun and \n@surfcoderepeat latest contracts on Sepolia show how the previously uncovered IdentityMD NFT/daemon network could connect to the $IMD economy\n\nIf this model works, it creates a self-sustaining system:\n\n> more operators - more tasks running in parallel  \n> more completed tasks - more products launched and maintained  \n> more products - more users and trading volume  \n> more volume - more funding for inference and rewards  \n> stable rewards attract new operators and capital  \n> onchain work history helps identify the most reliable daemons  \n> burns reduce the IMD supply without requiring new emissions\n\nPreviously, only the technical layer of the network was visible:\nIdentity.md NFT > one daemon > Codex/Claude > task execution > isolated verification > verified result\n\nNow Pool4 shows where such a network could potentially get the money to operate and pay rewards:\nIMD > swap/stake/bond > Uniswap v4 hook fees > compute, rewards and burn\n\nThe mechanism already confirmed on Sepolia:\n\n> the trading hook manages liquidity itself and collects fees  \n> the test pool fee is set at 1%  \n> 90% of the collected IMD is sent to a burn address  \n> 10% goes to the RewardDripper  \n> the RewardDripper gradually transfers IMD into an ERC-4626 vault for stakers  \n> rewards increase the value of each `sIMD` share, so no separate claim or issuance of new reward tokens is required\n\nThis creates a closed loop: more activity > more fees > more IMD burned > more rewards for the staking vault > more resources available for AI compute\n\nThat is why the Pool4 page says:\n\n> protocol owned inference  \n> the hook will pay for the compute  \n> no emissions. no rebases. no inflation.\n\n In the final model, the protocol itself could potentially cover inference costs using trading revenue.\n\nUltimately:\n\n> Identity.md NFT: network access and a unique daemon identity  \n> IMD: staking, rewards, burns and compute funding  \n> onchain receipts: work history and potential operator reputation\n\nThe NFT does not necessarily have to be a passive yield asset. It activates a working unit of the network, while IMD becomes the economic fuel for the entire system.\n\nwatching what comes next",
+      "hasMedia": true,
+      "likes": 85,
+      "reposts": 16,
+      "replies": 7,
+      "views": 41343
+    }
+  ]
+}

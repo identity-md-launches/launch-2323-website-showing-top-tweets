@@ -1,0 +1,26 @@
+{
+  "name": "pepe-wire",
+  "version": "1.0.0",
+  "description": "Top X posts about IdentityMD, dark green, guarded by pepes armed with AI.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "capture-posts": "node scripts/capture-posts.mjs",
+    "make-og": "node scripts/make-og.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "private": true
+}
